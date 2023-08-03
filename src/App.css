@@ -1,0 +1,173 @@
+.nav{
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+}
+
+.nav .links
+{
+       color:'blue'; font-size: 20px;
+}
+
+.main
+{
+   display: flex; justify-content: center; align-items: center;
+   height: 40rem;
+   width: 100%;
+   background-image: url("../public/images/bg.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+    background-size: cover; 
+    box-shadow: inset 0 0 0 1000px rgba(34, 34, 34, 0.6); 
+}
+
+.main h1{
+   font-weight: 500; color: white; text-align: center;
+}
+
+.main p{
+   font-weight: 500; color: white; text-align: center;
+}  
+
+.main button
+{
+    height: 43px; width: 160px; margin: 28px;
+}
+
+.form
+{
+   color:white;
+}
+
+.features
+{
+   margin-top: -3rem;
+  
+}
+
+.feature
+{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+
+.features h2{
+   font-weight: 700; color:rgb(34, 34, 73);  text-align: center;
+}
+
+.features p{
+   font-size: 1.2rem; text-align: center;
+}
+
+
+/* .steps{
+   height: 60rem; width: 100%; 
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 10px; 
+} */
+
+.step{
+   display: flex; justify-content: center; align-items: center; 
+}
+
+
+
+.steps img{
+   height: 80px; width:80px ;
+}
+
+.steps h2{
+   font-size: 20px; font-weight: 800; text-align: center;
+}
+
+.steps p{
+   font-size: 20px; text-align: center;
+}
+
+.jobs img
+{
+   height: 90px; width: 100px;
+}
+
+/* .jobs{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+row-gap: 20px; 
+column-gap: 20px;
+} */
+
+
+.j1{
+   display: flex; align-items: center; 
+}
+
+.j2{
+   display: flex; align-items: center; justify-content: space-between;
+}
+
+
+.apply
+{
+   
+    width:auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company img{
+   height: 7rem; width: 9rem; border-radius: 50%; clip-path: circle();
+}
+
+.company{
+   display: flex; align-items: center; 
+}
+
+.slide
+{
+    margin: 8rem 0rem;
+}
+
+/* .footer
+{
+   min-height: 20rem; width: 100%; background-color: rgb(5, 76, 176); color:white; margin-top: 10rem;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr;
+   gap: 10px; 
+   padding: 2rem 4rem;
+} */
+
+.footer
+{
+   background-color: rgb(5, 76, 176); color:white;  min-height: 14rem; width: 100%;
+}
+
+.footer h3,.footer h6
+{
+   color: rgb(21, 21, 112); font-weight: 700; 
+}
+
+.footer .icons{
+   height: 30px; width: 50px;
+   transition: all 0.3s ease;
+}   
+
+.footer .icons:hover
+{
+   color:darkblue;
+}
+
+.footer p{
+   transition: all 0.1s ease;
+}
+.footer p:hover{
+   color: rgb(21, 21, 112);
+}
+
+footer
+{
+   height: 3rem; width: 100%; background-color: rgb(21, 21, 112); color: white; text-align: center;
+}
